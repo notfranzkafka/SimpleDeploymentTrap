@@ -9,7 +9,7 @@ interface ITrap {
 contract Trap is ITrap {
     
     uint256 private constant DEPLOYMENT_THRESHOLD = 3;
-    string private constant DISCORD_NAME = "YourActualDiscordName"; // CHANGE THIS
+    string private constant DISCORD_NAME = "notfranz.kafka"; // CHANGE THIS
     uint256 private constant VERSION = 1;
     
     function collect() external view override returns (bytes memory) {
